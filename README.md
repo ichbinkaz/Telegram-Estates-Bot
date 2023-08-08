@@ -1,5 +1,11 @@
 # Telegram-Estates-Bot
 
+# Description
+The Estate Bot is a Telegram bot designed to assist users in exploring real estate listings from the Zillow platform within the Los Angeles area. Users can interact with the bot to access information about available estates, including their addresses, property details, and prices. The bot leverages the Telegram API for communication, the BeautifulSoup library for web scraping, and the Requests library for making HTTP requests to retrieve real estate data from the Zillow website.
+
+# Note:
+The zillow website has a protection agaisnt web crawlers (robots), so the implementation is done using BeautifulSoup.
+
 # Here's a step-by-step guide on how to create a Telegram bot using BotFather:
 
 # Create a Telegram Account:
